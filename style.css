@@ -1,0 +1,51 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#loginForm {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Optional: Add some spacing between elements */
+form {
+    margin-bottom: 20px;
+}
+
+/* Optional: Center the form on larger screens */
+@media (min-width: 768px) {
+    #loginForm {
+        width: 50%;
+    }
+}
